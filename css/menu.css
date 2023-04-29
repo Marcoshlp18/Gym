@@ -54,15 +54,16 @@ a {
 
 @media (max-width: 800px) {
   .header-menu {
-    gap: 20px;
+    gap: 18px;
   }
   .header-menu a::after {
     display: none;
   }
   .header-menu a {
     background: #3b3938;
-    padding: 16px 14px;
+    padding: 14px 12px;
     border-radius: 4px;
+    font-size: 14px;
   }
   .header-menu a:hover {
     background-color: #4a4a4a;
@@ -74,8 +75,10 @@ a {
     gap: 12px;
   }
   .header-menu a {
-    padding: 12px 10px;
-    font-size: 20px;
-    font-size: 18px;
+    padding: 10px 8px;
+    font-size: 12px;
+  }
+  .header a img {
+    width: 40px;
   }
 }
