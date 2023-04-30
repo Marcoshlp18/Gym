@@ -10,6 +10,7 @@ a {
 
 .header-bg {
   background: #423f3e;
+  margin-bottom: 50px;
 }
 
 .header {
@@ -19,7 +20,7 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  max-width: 1200px;
+  max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -38,26 +39,17 @@ a {
   font-family: "Roboto";
 }
 
-.header-menu a::after {
-  content: "";
-  display: block;
-  height: 1px;
-  width: 0;
-  background-color: #fff;
-}
-
-.header-menu a:hover:after {
-  width: 100%;
-  height: 2px;
-  transition: 0.5s;
+.header-menu a:hover {
+  color: #171010;
+  transition: 0.6s;
 }
 
 @media (max-width: 800px) {
   .header-menu {
     gap: 18px;
   }
-  .header-menu a::after {
-    display: none;
+  .header-menu a:hover {
+    color: #fff;
   }
   .header-menu a {
     background: #3b3938;
@@ -80,5 +72,31 @@ a {
   }
   .header a img {
     width: 40px;
+  }
+}
+
+@media (max-width: 490px) {
+  .header-menu {
+    gap: 10px;
+  }
+  .header-menu a {
+    padding: 8px 6px;
+    font-size: 10px;
+  }
+  .header a img {
+    width: 24px;
+  }
+}
+
+@media (max-width: 395px) {
+  .header-menu {
+    gap: 8px;
+  }
+  .header-menu a {
+    padding: 6px 4px;
+    font-size: 6px;
+  }
+  .header a img {
+    width: 22px;
   }
 }
