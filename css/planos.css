@@ -1,0 +1,112 @@
+.planos-bg {
+  background: #2b2b2b;
+  text-align: center;
+}
+
+.planos-bg h1 {
+  color: #fff;
+}
+
+.planos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  text-align: start;
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.planos h1 {
+  padding-bottom: 20px;
+}
+
+.planos p {
+  text-align: left;
+}
+
+.coach {
+  height: 250px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  padding-top: 40px;
+}
+
+.sub-coach {
+  align-items: center;
+  height: 100px;
+  display: flex;
+  padding-left: 80px;
+  margin-top: 40px;
+  column-gap: 40px;
+}
+
+.sub-coach a {
+  background: #f0a500;
+  color: #fff;
+  width: 80px;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.coach h1 {
+  color: #f0a500;
+}
+
+.nutri {
+  height: 250px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  padding-top: 40px;
+}
+
+.sub-nutri {
+  align-items: center;
+  height: 100px;
+  display: flex;
+  padding-left: 80px;
+  margin-top: 40px;
+  column-gap: 40px;
+}
+
+.sub-nutri a {
+  background: #f0a500;
+  color: #fff;
+  width: 80px;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.nutri h1 {
+  color: #f0a500;
+}
+
+.energy {
+  height: 250px;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  padding-top: 40px;
+}
+
+.sub-energy {
+  align-items: center;
+  height: 100px;
+  display: flex;
+  padding-left: 80px;
+  margin-top: 60px;
+  column-gap: 40px;
+}
+
+.sub-energy a {
+  background: #f0a500;
+  color: #fff;
+  width: 80px;
+  padding: 2px;
+  border-radius: 3px;
+}
+
+.energy h1 {
+  color: #f0a500;
+}
